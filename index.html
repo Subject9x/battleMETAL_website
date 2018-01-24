@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <title>battleMETAL</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="index_main" class="container-fluid bg-secondary">
+  <!-- TITLE ROW -->
+  <div id="index_title_row" class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 justify-content-center">
+         <img class="d-block w-100" src="img/title.png" alt="battleMETAL">
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+  <!-- BANNER ROW -->
+  <div id="index_banner_row" class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+      <div class="jumbotron">
+        <div id="index_carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 img-fluid" src="img/command.png" alt="Command mighty war machines">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-fluid" src="img/survive.png" alt="Survive through 2 full campaigns">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+  <!-- BUTTON ROW -->
+  <div id="index_button_row" class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <ul class="nav nav-tabs justify-content-center bg-light" id="index_tabs" role="tablist navigation">
+        <li class="nav-item">
+          <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="develop-tab" data-toggle="tab" href="#develop" role="tab" aria-controls="develop" aria-selected="false">Develop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="modify-tab" data-toggle="tab" href="#modify" role="tab" aria-controls="modify" aria-selected="false">Modify</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="download-tab" data-toggle="tab" href="#download" role="tab" aria-controls="download" aria-selected="false">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="faq-tab" data-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="false">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="media-tab" data-toggle="tab" href="#media" role="tab" aria-controls="media" aria-selected="false">Media</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+  <!-- About ROW -->
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="tab-content bg-light" id="index_tab_content">
+        <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <h3><b>The Game</b></h3>
+                <p><i>battleMETAL</i> is a successor to the 90's mech simulators of old. A delightful modernization of commanding
+                  giant robots bristling with firepower. Players deploying into mechs on the blighted world of Geiserath will be tasked
+                  with completing a variety of missions. The plan is to deliver a solid single-player experience with a co-op campaign
+                  as a stretch goal.
+                </p>
+                <h3><b>The Tech</b></h3>
+                <p>
+                  <i>battleMETAL</i> is built upon the <i>Darkplaces Engine</i> which itself is a source port of the classic
+                  first person shooter, <i>Quake</i>. The game leverages the extensions of the <i>Darkplaces</i> engine to deliver a unique 
+                  game experience of giant robot combat. 
+                </p>
+                <p>
+                  Being based on the dependable <i>Quake</i> engine and bolstered by the major extensions that <i>Darkplaces</i> provides, <i>battleMETAL</i>
+                  can pretty much run on almost any modern system with speed. Networking is also reliable, with the ability to run LAN groups, and host your
+                  own servers for the game. The project has space for creating a master server specifically for <i>battleMETAL</i> which will make connecting
+                  to <i>battleMETAL</i> game servers easier.
+                </p>
+                <h3><b>The Designer</b></h3>
+                  The game designer, principal coder, model maker, and ui designer is Peter Roohr. You can find out more about him by following the
+                <p>
+                  link below to his website (a bit out of date).
+                </p>
+                <h4><a href="http://www.roohrorbitalyards.com/GaragePage.html">RoohrOrbitalYards</a></h4><p></p>
+              </div>
+              <div class="col-sm-9"><img class="d-block w-100 img-responsive" src="img/oldschool.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="develop" role="tabpanel" aria-labelledby="develop-tab">
+          <div class="col">
+            <h3><b>Source Code</b></h3>
+            <p>
+             <i>battleMETAL</i> is primarily coded in Quake's scripting language, 'QuakeC' (QC). 90% of the original <i>Quake's</i> QC code has been
+             stripped out and replaced with functionality in service to <i>battleMETAL's</i> design goals. Some sections of code have been sourced from
+             tutorials online, but a large majority of this code has been written by the designer. You can find the QC source code for <i>battleMETAL</i>
+             by following the link below.
+            </p>
+            <h4><a href="https://github.com/Subject9x/battleMETAL">Github to source code</a></h4><p></p>
+            
+            <h3><b>Thankful Links</b></h3>
+            <h4><a href="https://icculus.org/twilight/darkplaces/readme.html">Darkplaces Engine</a></h4> - the main piece of technology, without it, none of this was possible.<p></p>
+            <h4><a href="http://www.insideqc.com/">Inside3D</a></h4> - a super helpful hub of knowledge about QC coding and <i>Quake</i> modding.<p></p>
+            <h4><a href="http://quakeone.com/">QuakeOne</a></h4> - a general forum of knowledge about <i>Quake</i> modding.<p></p>
+            
+            <h3><b>Current Development</b></h3>
+            <p>
+              The designer has been using a task-tracking website called <i>Trello</i> to guide and track the work being done on the game. You can
+              follow along with this progress by visiting the link below. </br>A quick primer for understanding the Trello board - </br>
+              <b>[Monthly]</b> - objectives which are generic directives to guide the work per-month.</br>
+              <b>[Backlog]</b> - simply stated, its a grab bag of low-level or far-off tasks that aren't super important to achieve now.</br>
+              <b>[Alpha 2]</b> - specific tasks that need to be completed for the second Alpha.</br>
+              <b>[New]</b> - tasks that crop up that should be worked on soon.</br>
+              <b>[Todo]</b> - tasks that <i>will be</i> worked on shortly.</br>
+              <b>[In Progress]</b> - tasks that are currently being worked on.</br>
+              <b>[Complete in X]</b> - the rest is a log of what has been accomplished per month going back to when Trello was first used.</br>
+            </p>
+            <h4><a href="https://trello.com/b/8HKspqBM/battlemetal"><i>battleMETAL</i> Trello board</a></h4><p></p>
+            <p>
+              The project right now is in <b>Alpha</b> status. Any and all elements of the game might change drastically during subsequent development.
+            </p>
+
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="modify" role="tabpanel" aria-labelledby="modify-tab">
+          <div class="col">
+            <h3><b>Modding <i>battleMETAL</i></b></h3>
+            <p>
+              A major design goal of the entire <i>battleMETAL</i> project is to, in addtion to making a fun mech game, deliver an api of sorts for
+              other developers to rapidly stand up their own mech games. <i>Quake</i>, <i>Darkplaces</i>, and the <i>battleMETAL</i> code are all
+              primed for modding. A lot of documentation can be found online for modifying both games, and below are links to documents for modifying
+              <i>battleMETAL</i>.
+            </p>
+            <p>
+              Below you will find links to main pieces of documentation that the designer has authored as he developed the main project of <i>battleMETAL</i>.
+              <i>battleMETAL</i> makes radical changes to the QC source code and is <i>not</i> compatible with any other mods that currently exist. Maps that
+              are made for the game, although its similar to regular <i>id Tech</i> games, uses its own set of map entities and game logic to create a functional
+              maps.
+            </p>
+            <p>
+              It is recommended that you open these documents in new tabs to make quick reference more easy.
+            </p>
+            <p><i>documentation is coming soon</i></p>
+            <img class="d-block w-100 img-responsive" src="img/hangar.png" alt="">
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="download" role="tabpanel" aria-labelledby="download-tab">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h3><b>Install Instructions</b></h3>
+                <p>
+                  Setting up <i>battleMETAL</i> is straightforward and easy, just follow these steps.
+                </p>
+                <ul>
+                  <li>Supported OS: Windows (for now)</li>
+                  <li>Download the zip file from the link below.</li>
+                  <li>Unzip the <i>battleMETAL</i> folder to any </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3><b>Latest Build</b></h3>
+            Current - Alpha 1.2
+            <p></p>
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="media" role="tabpanel" aria-labelledby="media-tab">
+          <div class="col">  
+            <h3><b>Development Videos</b></h3>
+            
+            <h3><b>Select Photos</b></h3>
+            <h3><b>Raw Concept Art</b></h3>
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+          <div class="col">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+</body>
+</html>
