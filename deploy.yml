@@ -1,0 +1,25 @@
+---
+- name: "Deploy script"
+  hosts: all
+  become: true
+  become_user: root 
+  tasks:
+
+  - name: Install apt packages
+    apt: name={{item}} state=installed update_cache=yes
+    with_items:
+    - "nginx"
+
+  - name: Clear default conf
+    file:
+      state: absent
+      path: /etc/nginx/sites-enabled/default
+
+  - name: Upload build to server
+    copy: src=. dest=/var/www/html/battlemetal
+
+  - name: Upload server conf
+    copy: src=battlemetal.conf dest=/etc/nginx/sites-enabled/battlemetal.conf
+
+  - name: Ensure that new nginx config is applied
+    service: name=nginx state=restarted
