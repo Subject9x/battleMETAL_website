@@ -11,6 +11,9 @@ import React, {Component} from 'react';
 
  class DevelopPage extends Component{
    
+  render(){
+    return(<div></div>);
+  }
  }
 
  export default DevelopPage;
