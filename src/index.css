@@ -10,6 +10,20 @@ body{
     background-color: #dfe6e2;
 }
 
+
+/*
+    used in DevelopPage hot links
+*/
+.flashPanel{
+    text-align: center;
+    background-color: #696664;
+}
+
+.flashPanel > a{
+    color:#e6ab09;
+}
+
+
 /* 
     used for project buttons on code garage and board games page
 */

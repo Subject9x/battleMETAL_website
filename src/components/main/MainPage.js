@@ -5,6 +5,7 @@ import classnames from 'classnames';
 import HeaderNews from './HeaderNews.js';
 import AboutPage from '../about/AboutPage.js';
 import DevelopPage from '../develop/DevelopPage.js';
+import ModifyPage from '../modify/ModifyPage.js';
 import MediaPage from '../media/MediaPage.js';
 import FAQPage from '../faq/FAQPage.js';
 /**
@@ -36,14 +37,6 @@ import FAQPage from '../faq/FAQPage.js';
       &nbsp;
       <HeaderNews />
       &nbsp;
-      <Row>
-        <Col lg={{size:10, offset:1}}>
-          <h3><p>Strap into a multi-ton walking tank and blast your way through a war-torn world.</p>
-          <p>A revenge weapon never meant to be activated, a war the population never saw coming.</p>
-          <p>You are a DEAD HAND and your orders are clear.</p></h3>
-        </Col>
-      </Row>
-      &nbsp;
       <Row >
         <Col md={{size:6, offset:4}}>
           <Nav tabs>
@@ -59,11 +52,16 @@ import FAQPage from '../faq/FAQPage.js';
             </NavItem>
             <NavItem>
               <NavLink className={classnames({active:this.state.activeTab ==='3'})} onClick={()=>{this.toggleTab('3');}}>
-                FAQ
+                Modify
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={classnames({active:this.state.activeTab ==='4'})} onClick={()=>{this.toggleTab('4');}}>
+                FAQ
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink className={classnames({active:this.state.activeTab ==='5'})} onClick={()=>{this.toggleTab('5');}}>
                 Media
               </NavLink>
             </NavItem>
@@ -81,16 +79,19 @@ import FAQPage from '../faq/FAQPage.js';
               <DevelopPage />
             </TabPane>
             <TabPane tabId="3">
-              <FAQPage />
+              <ModifyPage />
             </TabPane>
             <TabPane tabId="4">
+              <FAQPage />
+            </TabPane>
+            <TabPane tabId="5">
               <MediaPage />
             </TabPane>
           </TabContent>
         </Col>
       </Row>
+      <Row><Col>(C) 2019 - Peter Roohr</Col></Row>
     </Container>);
   }
- }
-
- export default MainPage;
+}
+export default MainPage;

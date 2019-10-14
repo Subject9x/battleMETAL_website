@@ -17,6 +17,13 @@ import {Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap';
     return(
       <Container>
         <Row>
+          <Col lg={{size:10, offset:1}}>
+            <h3><p>Strap into a multi-ton walking tank and blast your way through a war-torn world.</p>
+            <p>A revenge weapon never meant to be activated, a war the population never saw coming.</p>
+            <p>You are a <i>DEAD HAND</i> and your orders are clear.</p></h3>
+          </Col>
+        </Row>
+        <Row>
           <Col md={{size:4}}>
             <Card>
               <CardTitle><b><h3>The Game</h3></b></CardTitle>
