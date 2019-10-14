@@ -35,6 +35,12 @@ import {Container, Col, Row, Card, CardTitle, CardBody} from 'reactstrap';
           </Container>
         </Col>
       </Row>
+      <Row>
+        <Col md={{size:2}}></Col>
+        <Col><img className="img-fluid" src="/img/base2.png"></img></Col>
+        <Col md={{size:2}}></Col>
+        
+      </Row>
     </Container>
     );
   }

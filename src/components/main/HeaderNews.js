@@ -32,21 +32,21 @@ import {Container, Col, Row, Card, CardTitle, CardBody, Button} from 'reactstrap
 
   render(){
     return(
-      <Row>
-        <Col md={{size: 10, offset: 1}}>
+      <Row className="justify-content-md-center">
+        <Col md={{size:1}} className="right-justify mw-100"><Button>Prev</Button></Col>
+        <Col md={{size: 5}}>
           <Card>
             <CardTitle>Foo</CardTitle>
             <CardBody>
               <Container>
               <Row>
-                <Col sm={{size:2}}><Button>Prev</Button></Col>
                 <Col>Content</Col>
-                <Col sm={{size:2}}><Button>next</Button></Col>
               </Row>
             </Container>
             </CardBody>
           </Card>
         </Col>
+        <Col md={{size:1}}><Button>next</Button></Col>
       </Row>
     );
   }

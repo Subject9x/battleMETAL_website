@@ -32,13 +32,13 @@ import FAQPage from '../faq/FAQPage.js';
     return(
     <Container fluid>
       <Row className="justify-content-md-center">
-        <Col md={{size:5}}><img className="img-fuild" src="/img/title.png" alt="battleMETAL:The Game"></img></Col>
+        <Col md={{size:4}}><img className="img-fuild" src="/img/title.png" alt="battleMETAL:The Game"></img></Col>
       </Row>
       &nbsp;
       <HeaderNews />
       &nbsp;
-      <Row >
-        <Col md={{size:6, offset:4}}>
+      <Row  className="justify-content-md-center">
+        <Col md={{size:3}}>
           <Nav tabs>
             <NavItem>
               <NavLink className={classnames({active:this.state.activeTab ==='1'} )} onClick={()=>{this.toggleTab('1');}}>
