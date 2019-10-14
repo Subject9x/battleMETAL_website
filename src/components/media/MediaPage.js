@@ -10,7 +10,7 @@ import React, {Component} from 'react';
 
  class MediaPage extends Component{
   render(){
-    return(<div></div>);
+    return(<div>Media</div>);
   }
  }
 

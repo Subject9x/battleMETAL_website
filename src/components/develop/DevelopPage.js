@@ -12,7 +12,7 @@ import React, {Component} from 'react';
  class DevelopPage extends Component{
    
   render(){
-    return(<div></div>);
+    return(<div>Dev</div>);
   }
  }
 

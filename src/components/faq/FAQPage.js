@@ -10,7 +10,7 @@ import React, {Component} from 'react';
 
  class FAQPage extends Component{
   render(){
-    return(<div></div>);
+    return(<div>FAQ</div>);
   }
  }
 
