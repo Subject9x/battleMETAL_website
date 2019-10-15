@@ -31,38 +31,38 @@ import FAQPage from '../faq/FAQPage.js';
   render(){
     return(
     <Container fluid>
-      <Row className="justify-content-md-center">
-        <Col md={{size:4}}><img className="img-fuild" src="/img/title.png" alt="battleMETAL:The Game"></img></Col>
+      <Row>
+        <Col><img className="img-fuild justify-content-md-center" src="/img/title.png" alt="battleMETAL:The Game"></img></Col>
       </Row>
       &nbsp;
       <HeaderNews />
       &nbsp;
-      <Row  className="justify-content-md-center">
-        <Col md={{size:3}}>
+      <Row >
+        <Col md={{size:6, offset:3}}>
           <Nav tabs>
-            <NavItem>
+            <NavItem className="navButton">
               <NavLink className={classnames({active:this.state.activeTab ==='1'} )} onClick={()=>{this.toggleTab('1');}}>
-                About
+                <h4>About</h4>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="navButton">
               <NavLink className={classnames({active:this.state.activeTab ==='2'})} onClick={()=>{this.toggleTab('2');}}>
-                Develop
+                <h4>Develop</h4>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="navButton">
               <NavLink className={classnames({active:this.state.activeTab ==='3'})} onClick={()=>{this.toggleTab('3');}}>
-                Modify
+                <h4>Modify</h4>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="navButton">
               <NavLink className={classnames({active:this.state.activeTab ==='4'})} onClick={()=>{this.toggleTab('4');}}>
-                FAQ
+                <h4>FAQ</h4>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="navButton">
               <NavLink className={classnames({active:this.state.activeTab ==='5'})} onClick={()=>{this.toggleTab('5');}}>
-                Media
+                <h4>Media</h4>
               </NavLink>
             </NavItem>
           </Nav>

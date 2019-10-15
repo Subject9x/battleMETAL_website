@@ -1,13 +1,13 @@
 html {
-    background-color:#dfe6e2;
+    background-color:#78746d;
 }
 
 body{
-    background-color: #dfe6e2;
+    background-color: #78746d;
 }
 
 .pageBackground{
-    background-color: #dfe6e2;
+    background-color: #78746d;
 }
 
 
@@ -16,49 +16,29 @@ body{
 */
 .flashPanel{
     text-align: center;
-    background-color: #696664;
+    background-color: #4a4843;
 }
 
 .flashPanel > a{
     color:#e6ab09;
 }
 
-
-/* 
-    used for project buttons on code garage and board games page
+/*
+    nav bar styling
 */
-.codePanel{
-    /*background-color: #b35900;*/
-    /*border-color: #804000;*/
-    background-color: #857362;
-    border-color: #453b32;
-}
-.codePanel:hover{
-    background-color: #9e7d5d;
-    border-color: #804000;
-}
-
-/* 
-    Completed Project Panel 
-*/
-.commonProjectPanelSucces{
-    background-color: #8FBC8F;
-    border-color: #5f7d5f;
-}
-.commonProjectPanelSucces:hover{
-    background-color: #5f945f;
-    border-color: #5f7d5f;
+.navButton{
+    text-align: center;
+    background-color: #4a4843;
+    color:#e6ab09;
 }
 
 /*
-    Used for Artwork Section Panels
+    Cards - general
 */
-.artworkTitlePanel{
-    background-color: #6eaeb8;
-    border-color: #6eaeb8;
+.cardMETAL{
+    background-color: #c5c3bf;
 }
 
-.artworkTitlePanel:hover{
-    background-color: #40acbd;
-    border-color: #40acbd;
+.cardTitleMETAL{
+    color: #ffeac2;
 }

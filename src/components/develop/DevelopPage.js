@@ -14,16 +14,17 @@ import {Container, Col, Row, Card, CardTitle, CardBody} from 'reactstrap';
    
   render(){
     return(
-    <Container fluid>
+    <Container>
       <Row>
-        <Col>
+        <Col md={{size:5, offset:1}}>
           <DevelopPageLeftPanel />
         </Col>
-        <Col>
+        <Col md={{size:5}}>
           <DevelopPageRightPanel />
         </Col>
       </Row>
-      <Row>
+      &nbsp;
+      <Row fluid>
         <Col>
           <Container fluid>
             <Row>
@@ -36,10 +37,7 @@ import {Container, Col, Row, Card, CardTitle, CardBody} from 'reactstrap';
         </Col>
       </Row>
       <Row>
-        <Col md={{size:2}}></Col>
-        <Col><img className="img-fluid" src="/img/base2.png"></img></Col>
-        <Col md={{size:2}}></Col>
-        
+        <Col md={{size:12}}><img className="img-fluid" src="/img/base2.png"></img></Col>
       </Row>
     </Container>
     );
@@ -50,15 +48,15 @@ const DevelopPageLeftPanel =(props)=>{
   return(
   <Container>
     <Row>
-      <Card>
-        <CardTitle><b><h4>Source Code</h4></b></CardTitle>
+      <Card className="cardMETAL">
+        <CardTitle className="cardTitleMETAL"><b><h4>Source Code</h4></b></CardTitle>
         <CardBody>
         <p><i>battleMETAL</i> is primarily coded in <i>Quake</i>'s scripting language, 'QuakeC' (QC). 
           90% of the original <i>Quake</i>'s QC code has been stripped out and replaced with functionality in service to <i>battleMETAL</i>'s design goals. 
           Some sections of code have been sourced from tutorials online, but a large majority of this code has been written by the designer. 
           You can find the QC source code for <i>battleMETAL</i> by following the link below:
         </p>
-        <a href="https://github.com/Subject9x/battleMETAL" target="...">battleMETAL on Github</a>
+        <h4><a href="https://github.com/Subject9x/battleMETAL" target="...">battleMETAL on Github</a></h4>
         </CardBody>
       </Card>
     </Row>
@@ -70,8 +68,8 @@ const DevelopPageRightPanel =(props)=>{
   return(
   <Container>
     <Row>
-      <Card>
-        <CardTitle><b><h4>Project Development</h4></b></CardTitle>
+      <Card className="cardMETAL">
+        <CardTitle className="cardTitleMETAL"><b><h4>Project Development</h4></b></CardTitle>
         <CardBody>
           <p>The designer has been using a task-tracking website called <i>Trello</i> to guide and track the work being done on the game. You can follow along with this progress by visiting the link below.
             A quick primer for understanding this <i>Trello</i> board -
@@ -84,7 +82,7 @@ const DevelopPageRightPanel =(props)=>{
             <li><b>[Complete in X]</b>- A log of what has been accomplished per month.</li>
           </ul>
           <p></p>
-          <a href="https://trello.com/b/8HKspqBM/battlemetal" target="...">battleMETAL Project Board</a>
+          <h4><a href="https://trello.com/b/8HKspqBM/battlemetal" target="...">battleMETAL Project Board</a></h4>
         </CardBody>
       </Card>
     </Row>

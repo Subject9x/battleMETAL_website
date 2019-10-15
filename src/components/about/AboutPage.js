@@ -25,8 +25,8 @@ import {Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap';
         </Row>
         <Row>
           <Col md={{size:4}}>
-            <Card>
-              <CardTitle><b><h3>The Game</h3></b></CardTitle>
+            <Card className="cardMETAL">
+              <CardTitle className="cardTitleMETAL"><b><h3>The Game</h3></b></CardTitle>
               <CardBody>
                 <p><i>battleMETAL</i> is a successor to the 90's mech simulators of old. A delightful modernization of commanding giant robots bristling with firepower. 
                   Players choose and customize their war machines known as <i>METALS</i>, and then drop into the blighted world of Geiserath. 
@@ -37,8 +37,8 @@ import {Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap';
           </Col>
 
           <Col md={{size:4}}>
-            <Card>
-              <CardTitle><b><h3>The Tech</h3></b></CardTitle>
+            <Card className="cardMETAL">
+              <CardTitle className="cardTitleMETAL"><b><h3>The Tech</h3></b></CardTitle>
               <CardBody>
                 <p><i>battleMETAL</i> is built upon the <i>Darkplaces</i> Engine which itself is a source port of the classic first person shooter, <i>Quake</i>. 
                   The game leverages the extensions of the <i>Darkplaces</i> engine to deliver a unique game experience of giant robot combat.</p>
@@ -50,8 +50,8 @@ import {Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap';
           </Col>
  
           <Col md={{size:4}} className="h-100">
-            <Card>
-              <CardTitle><b><h3>The Design</h3></b></CardTitle>
+            <Card className="cardMETAL">
+              <CardTitle className="cardTitleMETAL"><b><h3>The Design</h3></b></CardTitle>
               <CardBody>
                 <p>The game designer, principal coder, model maker, and ui designer is Peter Roohr. You can find out more about him by following the
                 link below to his website</p>
