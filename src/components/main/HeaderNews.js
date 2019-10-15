@@ -33,7 +33,7 @@ import {Container, Col, Row, Card, CardTitle, CardBody, Button} from 'reactstrap
   render(){
     return(
       <Row className="justify-content-md-center">
-        <Col md={{size:1}} className="right-justify mw-100"><Button><img src="../img/arrow_left.png"/></Button></Col>
+        <Col md={{size:1}} className="right-justify mw-100"><Button><img src="../img/arrow_left.png" alt="previous news"/></Button></Col>
         <Col md={{size: 5}}>
           <Card>
             <CardTitle>Foo</CardTitle>
@@ -46,7 +46,7 @@ import {Container, Col, Row, Card, CardTitle, CardBody, Button} from 'reactstrap
             </CardBody>
           </Card>
         </Col>
-        <Col md={{size:1}}><Button><img src="../img/arrow_right.png"/></Button></Col>
+        <Col md={{size:1}}><Button><img src="../img/arrow_right.png" alt="next news"/></Button></Col>
       </Row>
     );
   }

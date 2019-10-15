@@ -42,3 +42,21 @@ body{
 .cardTitleMETAL{
     color: #ffeac2;
 }
+
+/*
+    Panel analogues
+*/
+.panelMETAL{
+    background-color: #4a4843;
+}
+
+.panelMETALTitle{
+    color: #e6ab09;
+}
+
+.panelMETAL > div > ul > li{
+    color: #cac2b3;
+}
+.panelMETAL > div > ul > li > a{
+    color: #cac2b3;
+}

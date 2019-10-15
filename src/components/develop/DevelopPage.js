@@ -24,9 +24,9 @@ import {Container, Col, Row, Card, CardTitle, CardBody} from 'reactstrap';
         </Col>
       </Row>
       &nbsp;
-      <Row fluid>
+      <Row>
         <Col>
-          <Container fluid>
+          <Container fluid={true}>
             <Row>
               <Col md={{size:2, offset:2}} className="flashPanel"><a href="https://github.com/xonotic/darkplaces" alt="" target="..."><h3>Darkplaces Engine Code</h3></a></Col>
               <Col md={{size:2}} className="flashPanel"><a href="https://icculus.org/twilight/darkplaces/readme.html" target="..."><h3>Darkplaces Website</h3></a></Col>
@@ -37,7 +37,7 @@ import {Container, Col, Row, Card, CardTitle, CardBody} from 'reactstrap';
         </Col>
       </Row>
       <Row>
-        <Col md={{size:12}}><img className="img-fluid" src="/img/base2.png"></img></Col>
+        <Col md={{size:12}}><img className="img-fluid" src="/img/base2.png" alt="..."></img></Col>
       </Row>
     </Container>
     );

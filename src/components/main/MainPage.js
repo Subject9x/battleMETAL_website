@@ -30,12 +30,27 @@ import FAQPage from '../faq/FAQPage.js';
 
   render(){
     return(
-    <Container fluid>
+    <Container fluid={true}>
       <Row>
         <Col><img className="img-fuild justify-content-md-center" src="/img/title.png" alt="battleMETAL:The Game"></img></Col>
       </Row>
-      &nbsp;
-      <HeaderNews />
+      <Row>
+        <Col md={{size:5,offset:1}}>
+          <iframe title="foo" />
+        </Col>
+        <Col md={{size:4}}>
+          <div className="panelMETAL">
+            <div className="panelMETALTitle"><h4>News</h4></div>
+            <div>
+              <ul>
+                <li>Beta v1.0.0 Released - itch.io</li>
+                <li><a href="" target="...">Beta v1.0.0 Changelog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div></div>
+        </Col>
+      </Row>
       &nbsp;
       <Row >
         <Col md={{size:6, offset:3}}>
