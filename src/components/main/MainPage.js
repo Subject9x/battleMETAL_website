@@ -51,7 +51,7 @@ import FAQPage from '../faq/FAQPage.js';
         </Col>
       </Row>
       &nbsp;
-      <Row className="justify-content-md-center">
+      <Row>
         <Col md={{size:8}}>
           <Nav tabs={true}>
             <NavItem className="navButton">
