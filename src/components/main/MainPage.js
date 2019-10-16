@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Container, Col, Row, Nav, NavItem, NavLink, TabContent, TabPane} from 'reactstrap';
 import classnames from 'classnames';
 
-import HeaderNews from './HeaderNews.js';
 import AboutPage from '../about/AboutPage.js';
 import DevelopPage from '../develop/DevelopPage.js';
 import ModifyPage from '../modify/ModifyPage.js';
@@ -31,19 +30,19 @@ import FAQPage from '../faq/FAQPage.js';
   render(){
     return(
     <Container fluid={true}>
-      <Row>
-        <Col><img className="img-fuild justify-content-md-center" src="/img/title.png" alt="battleMETAL:The Game"></img></Col>
+      <Row className="justify-content-lg-center">
+        <Col lg={{size:8, offset:2}}><img src="/img/title.png" alt="battleMETAL:The Game" /></Col>
       </Row>
-      <Row>
+      <Row >
         <Col md={{size:5,offset:1}}>
           <iframe title="foo" />
         </Col>
-        <Col md={{size:4}}>
+        <Col md={{size:5}}>
           <div className="panelMETAL">
             <div className="panelMETALTitle"><h4>News</h4></div>
             <div>
               <ul>
-                <li>Beta v1.0.0 Released - itch.io</li>
+                <li>Beta v1.0.0 Release - TBD Dec 2019</li>
                 <li><a href="" target="...">Beta v1.0.0 Changelog</a></li>
               </ul>
             </div>
@@ -52,9 +51,9 @@ import FAQPage from '../faq/FAQPage.js';
         </Col>
       </Row>
       &nbsp;
-      <Row >
-        <Col md={{size:6, offset:3}}>
-          <Nav tabs>
+      <Row className="justify-content-md-center">
+        <Col md={{size:8}}>
+          <Nav tabs={true}>
             <NavItem className="navButton">
               <NavLink className={classnames({active:this.state.activeTab ==='1'} )} onClick={()=>{this.toggleTab('1');}}>
                 <h4>About</h4>

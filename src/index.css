@@ -60,3 +60,14 @@ body{
 .panelMETAL > div > ul > li > a{
     color: #cac2b3;
 }
+
+/*
+    Page:FAQ 
+*/
+.faqQuestion{
+    color: #78746d;
+}
+
+.faqAnswer{
+    color: #ffeac2;
+}
