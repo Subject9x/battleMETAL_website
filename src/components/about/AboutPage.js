@@ -55,7 +55,7 @@ import {Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap';
               <CardBody>
                 <p>The game designer, principal coder, model maker, and ui designer is Peter Roohr. You can find out more about him by following the
                 link below to his website</p>
-                <a href="https://roohrorbitalyards.com">Roohr Orbital yards</a>
+                <a href="https://roohrorbitalyards.com" target="...">Roohr Orbital yards</a>
               </CardBody>
             </Card>
           </Col>

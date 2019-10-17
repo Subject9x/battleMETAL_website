@@ -31,6 +31,7 @@ class MediaConcepts extends Component{
           <Col md={{size:4}}><CommonImagePanel src="./img/concept/concept_details_matok.jpg" alt="some alt" className="mw-100"/></Col>
           <Col md={{size:4}}><CommonImagePanel src="./img/concept/concept_foslager.jpg" alt="some alt" className="mw-100"/></Col>
           <Col md={{size:4}}><CommonImagePanel src="./img/concept/concept_heav_tank.jpg" alt="some alt" className="mw-100"/></Col>
+          <Col md={{size:4}}><CommonImagePanel src="./img/concept/concept_onnek.jpg" alt="some alt" className="mw-100"/></Col>
           <Col md={{size:4}}><CommonImagePanel src="./img/concept/concepts.jpg" alt="some alt" className="mw-100"/></Col>
           <Col md={{size:4}}><CommonImagePanel src="./img/concept/concept_hud.jpg" alt="some alt" className="mw-100"/></Col>
           <Col md={{size:4}}><CommonImagePanel src="./img/concept/concept_weapons.jpg" alt="some alt" className="mw-100"/></Col>

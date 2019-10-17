@@ -37,7 +37,7 @@ import FAQPage from '../faq/FAQPage.js';
         <Col md={{size:5,offset:1}}>
           <iframe title="foo" />
         </Col>
-        <Col md={{size:5}}>
+        <Col md={{size:3}}>
           <div className="panelMETAL">
             <div className="panelMETALTitle"><h4>News</h4></div>
             <div>
@@ -52,7 +52,7 @@ import FAQPage from '../faq/FAQPage.js';
       </Row>
       &nbsp;
       <Row>
-        <Col md={{size:8}}>
+        <Col md={{size:8,offset:2}}>
           <Nav tabs={true}>
             <NavItem className="navButton">
               <NavLink className={classnames({active:this.state.activeTab ==='1'} )} onClick={()=>{this.toggleTab('1');}}>
