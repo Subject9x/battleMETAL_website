@@ -1,0 +1,27 @@
+Alpha v0.3.8 Change Log
+NEW
+  Full rebuild of main menu system
+  Arming Menu - Added Energy Cost per Weapon Group 
+  Controls Update - Can now a Weapon Group as Fire-By-Hotkey
+  Upgrade Modules - Replace Weapons with items that provide minor Mech stat buffs.
+  Working save-game system.
+  Sprinting - is back, costs energy, cannot attack while sprinting.
+  Hangar UI - now loads item data from text files for better maintenance
+
+UPDATED
+  Stat tweaks - see Stat Change Log
+  Energy Draw refactor - changed from drain-over-time to upfront-fixed-cost
+  Weapon Textures - revamped
+  Improved frame rate on servers
+  Deployment Menu - improved UI experience
+  Data File System - reorganized file locations and folders
+  Target Pips - colored depending on alliance status
+  Weapon Textures - Completely remade with greater detail
+  Building Textures - Completely remade with greater detail
+  Mech Textures - Completely remade with greater detail
+
+FIXED
+  Radar Lock-on - fixed functionality regression
+  Target Pips - fixed regression
+  Radar Display - orientation of non-player objects was not correct
+  Swarm Missile Launcher - bugs
