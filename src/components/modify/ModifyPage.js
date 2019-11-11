@@ -49,7 +49,7 @@ class ModifyPage extends Component{
           </Col>
         </Row>
         <Row>
-          <Col md={{size:12}}><img className="img-fluid" src="/img/base2.png" alt="..."></img></Col>
+          <Col md={{size:12}}><img className="img-fluid" src="/img/beta1.png" alt="..."></img></Col>
         </Row>
       </Container>
     );
