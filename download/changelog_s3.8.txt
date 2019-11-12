@@ -1,0 +1,57 @@
+MECHS
+  Balakett  
+    hardpoint 3 no MSC now has MSC  
+    sh_rate was 1 now 2  
+
+  Matok 
+    hardpoint 5 no MSC now has MSC  
+    sh_rate was 0.75 now 1.5  
+    
+  Monitor
+    hardpoint 7 no MSC now has MSC  
+    hardpoint 9 no MSC now has MSC 
+    sh_rate was 0.35 now 0.7
+
+WEAPONS
+  EMP  
+    tech was 1 now 2 
+    
+  LAS  
+    dmg per shot was 20 now 10              
+    dmg total was 20 now 10     
+    stability  0 | 0 now  1 | 1      
+                      
+  Ion Coil Rifle  
+    dmg per shot was (100 * 3) now (75 * 3)     
+    dmg total was 300 now 225       
+             
+  Rotary Plasma  
+    dmg per shot was (20 * 6) now (10.8 * 6)             
+    dmg total was 120 now 65              
+    energy rate was 0.3 now 0.1              
+    cooldown was 3 now 5              
+    ((rate * 10) * sec) was 10 now 5              
+                      
+  Short Field Gun  
+    dmg per shot was 300 now 400              
+    dmg total was 300 now 400              
+    cooldown was 5 now 10              
+                      
+  Laser-guided Missiles  
+    size was 2 now 1              
+    en rate was 1.1 now 0.25              
+    ((rate * 10) * sec) was 66 now 15              
+                      
+  M-ARH  
+    dmg per shot was (2 * 15) now (7 * 15)              
+    clipsize was 15 now 10              
+                      
+  Swarm Launcher  
+    clipsize was (3 * 20 * 6) now (3 * 1 )             
+                      
+  equipment - all of them
+    was not ready, but now all ready
+                      
+  PAC 
+    range was 1600 now 3200              
+    dmg was 200 now 250              

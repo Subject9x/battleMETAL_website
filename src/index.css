@@ -1,0 +1,77 @@
+html {
+    background-color:#78746d;
+}
+
+body{
+    background-color: #78746d;
+}
+
+.pageBackground{
+    background-color: #78746d;
+}
+
+
+/*
+    used in DevelopPage hot links
+*/
+.flashPanel{
+    text-align: center;
+    background-color: #4a4843;
+}
+
+.flashPanel > a{
+    color:#e6ab09;
+}
+
+/*
+    nav bar styling
+*/
+.navButton{
+    text-align: center;
+    background-color: #4a4843;
+    color:#e6ab09;
+}
+
+/*
+    Cards - general
+*/
+.cardMETAL{
+    background-color: #c5c3bf;
+}
+
+.cardTitleMETAL{
+    color: #ffeac2;
+}
+
+/*
+    Panel analogues
+*/
+.panelMETAL{
+    background-color: #4a4843;
+}
+
+.panelMETALTitle{
+    color: #e6ab09;
+}
+
+.panelMETAL > div > ul > li{
+    color: #cac2b3;
+}
+.panelMETAL > div > ul > li > a{
+    color: #cac2b3;
+}
+
+/*
+    Page:FAQ 
+*/
+.faqQuestion{
+    color: #78746d;
+}
+
+.faqAnswer{
+    color: #ffeac2;
+}
+
+/*
+    simple Buttons
+*/

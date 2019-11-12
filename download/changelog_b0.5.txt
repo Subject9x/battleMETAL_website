@@ -1,0 +1,97 @@
+Features and Fixing
+Gameplay
+    AI and Player accuracy calculations rebuilt for clarity and ease-of-balancing.
+        Each Mech has an accuracy profile from the following list
+            Sniper - low shot deviation, long convergence time
+            Marksman - slightly below average deviation, low convergence time
+                                    Skirmisher - average deviation, average convergence
+                                    Low Tech   - above average deviation, slow convergence
+            Primitive     - the worst
+        Radar mode, Movement, and upgrade modules affect these stats.
+    Weapons once again have shot deviation
+        See game stats for exact numbers
+    Zoom functionality is back in and very smooth.
+        Radar refactored:
+            Universal cylinder around player with radius equal to mech’s radar range.
+            ACTIVE radar detects everything regardless of Line of Sight.
+            PASSIVE radar detects only things in Line of Sight.
+        Listening Post buildings now properly detect targets and alert friendlies.
+        AI changes have unified combat experience.
+        Map Boundaries now warn the player to turn back.
+        Full 3D terrain meshes dropped for maintainability issues.
+
+    Code changes
+        Game data being sent to the HUD has been cleaned up.
+            Lowered data transmission rates to be more needs-based.
+    AI
+        Complete Rebuild.
+        Defined Behaviors.
+        Behavior sets implement a template interface.
+        Attack Code rebuilt.
+        True turrets on AI vehicles.
+        AI weapon damage and health further reduced per Skill Level.
+        AI can now use lock-on weapons.
+        AI has limited hunting routines
+        May call for help when attacked
+        Voice system worked out
+
+    Menu System
+        Hangar Menu
+            Mech UI data now stored in text files.
+            Weapon UI data now stored in text files.
+        
+Arming Menu
+    Players can now define their own configurations of weapons.
+                Up to 6 player-defined mech configs per mech.
+                
+Deployment Menu
+            Improved UI for picking Start Location.
+
+        In-game menus given color overlays to make distinguishing between them easier.
+
+
+
+
+
+    HUD
+    Reticle is animated again to show accuracy.
+        Radar display enhancements:
+            Fade-time for radar contacts.
+            Radar upgrades change radar display type.
+            Radar shows nav points
+        Switched HUD data over to text files for easier modification.
+        Fixed Display Formatting - Vehicle Target Data.
+        Fixed Display Formatting - Building Target Data.
+    
+    Graphical Improvements
+        Particles improved - large update to particle effects across the board.
+            Beam effects now more unique
+        Wind effect - maps can now have a global wind direction and velocity, this will affect particles.
+        Projectile Models - all weapons now have their proper projectile models
+Working models for all vehicles
+New skins for existing mechs    
+        All-new textures for 3 distinct environs - desert, ice, and urban remains.
+        
+    SDK Work
+        GTKRadiant artifacts created - this makes developing maps for battleMETAL much easier.
+        Development articles have been written for creating maps for battleMETAL.
+            Setup GTK Radiant
+            Entity.def files for custom map entities
+        Trenchbroom 2 artifacts created - facilitating battleMETAL map development.
+        Development articles need to be rewritten
+        
+
+Balance Patching
+    WEAPONS
+        Weapon ranges reduced to increase access to combat.
+        Weapon spread reimplemented and rebalanced.
+    
+    VEHICLES
+        Vehicles only get shields if they’re close to any friendly Shield Generator
+    
+    MECHS
+Mech yaw speeds adjusted:
+AI mechs now have 2 yaw speeds
+1 rate for their leg turning
+1 rate for torso twist
+Pitch minimums and maximums implemented
