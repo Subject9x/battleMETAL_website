@@ -37,7 +37,7 @@ import {Container, Col, Row, Card, CardTitle, CardBody} from 'reactstrap';
         </Col>
       </Row>
       <Row>
-        <Col md={{size:12}}><img className="img-fluid" src="/img/base2.png" alt="..."></img></Col>
+        <Col md={{size:12}}><img className="img-fluid" src="/img/base3.png" alt="..."></img></Col>
       </Row>
     </Container>
     );

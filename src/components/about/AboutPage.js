@@ -61,7 +61,7 @@ import {Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap';
           </Col>
         </Row>
         <Row>
-          <Col md={{size:12}}><img className="img-fluid" src="/img/oldschool2.png" alt="..."></img></Col>
+          <Col md={{size:12}}><img className="img-fluid" src="/img/oldschool3.png" alt="..."></img></Col>
         </Row>
       </Container>
     );
